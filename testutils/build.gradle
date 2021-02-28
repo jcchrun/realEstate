@@ -1,0 +1,12 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+}
+
+apply from: '../commons.gradle'
+
+dependencies {
+
+    implementation TestLibraries.junit
+    implementation TestLibraries.coroutines_test
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="error_image_width">120dp</dimen>
+    <dimen name="error_button_width">120dp</dimen>
+    <dimen name="marge_16">16dp</dimen>
+    <dimen name="round_radius">10dp</dimen>
+    <dimen name="toolbar_icon_size">24dp</dimen>
+</resources>

@@ -1,0 +1,10 @@
+include ':presentation'
+include ':testutils'
+include ':locale'
+include ':repositories'
+include ':remote'
+include ':models'
+include ':domain'
+include ':commons-app'
+include ':app'
+rootProject.name = "Annonces"

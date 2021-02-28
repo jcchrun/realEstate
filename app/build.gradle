@@ -1,0 +1,30 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+}
+
+apply from: '../commons.gradle'
+
+android {
+    defaultConfig {
+        applicationId ApplicationId.id
+    }
+}
+
+dependencies {
+    implementation project(Modules.commonsApp)
+    implementation project(Modules.models)
+    implementation project(Modules.domain)
+    implementation project(Modules.locale)
+    implementation project(Modules.presentation)
+    implementation project(Modules.remote)
+    implementation project(Modules.repositories)
+    testImplementation project(Modules.testutils)
+
+    implementation Libraries.constraintlayout
+
+    implementation Libraries.coroutines_core
+    implementation Libraries.coroutines_android
+
+    implementation Libraries.stetho
+}

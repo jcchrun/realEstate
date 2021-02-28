@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="error_no_connection">"Vérifiez votre connexion Internet et réessayer"</string>
+    <string name="error_unknown">"Une erreur est survenue, merci de réessayer plus tard"</string>
+    <string name="empty_data">"Aucun résultat trouvé"</string>
+    <string name="retry">"réessayer"</string>
+    <string name="shared_transition_image">thumbnail</string>
+</resources>
