@@ -18,5 +18,5 @@ A sample Android application to show the MVVM design pattern with Clean Architec
 - Mockk (for unit tests)
 
 ## Screenshots
-![image info](./screenshots/Screenshot_1.jpg)
-![image info](./screenshots/Screenshot_2.jpg)
+![image info](./screenshots/Screenshot_1.png)
+![image info](./screenshots/Screenshot_2.png)
